@@ -1,12 +1,11 @@
 body {
-	background-color: #141b2b;
-	font-family: Tahoma;
+	background-color: #1d1d1d;
+	font-family: Verdana;
 	color: white;
 	margin: 0;
 }
 
 div {
-	background-color: #111623;
 	overflow: hidden;
 }
 
@@ -40,17 +39,15 @@ a, a:hover, a:active, a:visited {
 table {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 75px;
+	margin-top: 50px;
 	color: black;
 	border-collapse: collapse;
 	font-size: 20px;
-}
-
-table, td {
-	border: 5px solid black;
+	width: 500px;
 }
 
 td {
+	border: 5px solid black;
 	padding: 25px;
 }
 
@@ -60,4 +57,16 @@ td:last-child {
 
 td:first-child {
 	text-align: center;
+	width: 25px;
+}
+
+button {
+	background-color: #7e8baa;
+	border: none;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
 }
